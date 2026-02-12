@@ -3,6 +3,10 @@
 		{
 			"name": "pnmr_analysis",
 			"path": "."
+		},
+		{
+			"name": "2.12 Sample 3",
+			"path": "../../Downloads/2.12 Sample 3"
 		}
 	],
 	"settings": {}
