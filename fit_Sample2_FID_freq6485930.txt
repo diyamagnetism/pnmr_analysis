@@ -4,24 +4,24 @@ Fit Report for Hydrogen Peak in Mineral Oil
     (Model(lorentzian) + Model(linear))
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 96
-    # data points      = 50
+    # function evals   = 95
+    # data points      = 54
     # variables        = 5
-    chi-square         = 1.7297e+10
-    reduced chi-square = 3.8438e+08
-    Akaike info crit   = 993.089357
-    Bayesian info crit = 1002.64947
-    R-squared          = 0.98697078
+    chi-square         = 1.7680e+10
+    reduced chi-square = 3.6081e+08
+    Akaike info crit   = 1068.76215
+    Bayesian info crit = 1078.70707
+    R-squared          = 0.98684752
 [[Variables]]
-    amplitude:  5.7365e+08 +/- 15515265.4 (2.70%) (init = 8.976059e+09)
-    center:     4786.29381 +/- 5.15240526 (0.11%) (init = 6137.48)
-    sigma:      235.201915 +/- 8.00347551 (3.40%) (init = 5000)
-    slope:      0.83899346 +/- 1.41295305 (168.41%) (init = 15)
-    intercept: -14769.1278 +/- 7446.76718 (50.42%) (init = 0)
-    fwhm:       470.403831 +/- 16.0069510 (3.40%) == '2.0000000*sigma'
-    height:     776353.814 +/- 16746.6116 (2.16%) == '0.3183099*amplitude/max(1e-15, sigma)'
+    amplitude:  5.7124e+08 +/- 14738382.4 (2.58%) (init = 8.976059e+09)
+    center:     4786.36758 +/- 4.98489167 (0.10%) (init = 4773.595)
+    sigma:      234.378431 +/- 7.67243501 (3.27%) (init = 5000)
+    slope:      0.67969344 +/- 1.21891434 (179.33%) (init = -1)
+    intercept: -12976.6434 +/- 6515.75264 (50.21%) (init = 0)
+    fwhm:       468.756862 +/- 15.3448700 (3.27%) == '2.0000000*sigma'
+    height:     775796.029 +/- 16246.3795 (2.09%) == '0.3183099*amplitude/max(1e-15, sigma)'
 [[Correlations]] (unreported correlations are < 0.100)
-    C(slope, intercept)     = -0.8851
-    C(amplitude, sigma)     = +0.7737
-    C(amplitude, intercept) = -0.2546
-    C(sigma, intercept)     = -0.1919
+    C(slope, intercept)     = -0.8734
+    C(amplitude, sigma)     = +0.7688
+    C(amplitude, intercept) = -0.2611
+    C(sigma, intercept)     = -0.1957
