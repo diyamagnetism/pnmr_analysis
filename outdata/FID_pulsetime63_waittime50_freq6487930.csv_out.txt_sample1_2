@@ -4,24 +4,28 @@ Fit Report for Hydrogen Peak in Mineral Oil
     (Model(lorentzian) + Model(linear))
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 115
-    # data points      = 68
+    # function evals   = 96
+    # data points      = 49
     # variables        = 5
-    chi-square         = 1.5657e+10
-    reduced chi-square = 2.4853e+08
-    Akaike info crit   = 1319.31926
-    Bayesian info crit = 1330.41680
-    R-squared          = 0.98246634
+    chi-square         = 4.6448e+10
+    reduced chi-square = 1.0556e+09
+    Akaike info crit   = 1022.81960
+    Bayesian info crit = 1032.27871
+    R-squared          = 0.99152613
 [[Variables]]
-    amplitude:  4.4940e+08 +/- 12077366.7 (2.69%) (init = 6.039289e+09)
-    center:     7890.33378 +/- 5.69831185 (0.07%) (init = 7886.776)
-    sigma:      268.284422 +/- 9.07303597 (3.38%) (init = 5000)
-    slope:     -0.15180930 +/- 0.90444695 (595.78%) (init = -1)
-    intercept: -8098.20427 +/- 7461.19233 (92.13%) (init = 0)
-    fwhm:       536.568844 +/- 18.1460719 (3.38%) == '2.0000000*sigma'
-    height:     533191.660 +/- 11296.6297 (2.12%) == '0.3183099*amplitude/max(1e-15, sigma)'
+    amplitude:  1.5253e+09 +/- 33977942.1 (2.23%) (init = 2.157876e+10)
+    center:     4543.98259 +/- 4.03507636 (0.09%) (init = 4640.938)
+    sigma:      238.754810 +/- 8.33282317 (3.49%) (init = 5000)
+    slope:      0.65946728 +/- 1.37313618 (208.22%) (init = -1)
+    intercept: -10700.9739 +/- 10140.1473 (94.76%) (init = 0)
+    fwhm:       477.509621 +/- 16.6656464 (3.49%) == '2.0000000*sigma'
+    height:     2033515.72 +/- 45950.6085 (2.26%) == '0.3183099*amplitude/max(1e-15, sigma)'
 [[Correlations]] (unreported correlations are < 0.100)
-    C(slope, intercept)     = -0.9457
-    C(amplitude, sigma)     = +0.7796
-    C(amplitude, intercept) = -0.1820
-    C(sigma, intercept)     = -0.1378
+    C(slope, intercept)     = -0.8488
+    C(amplitude, sigma)     = +0.7741
+    C(amplitude, intercept) = -0.4320
+    C(sigma, intercept)     = -0.3278
+    C(center, sigma)        = +0.2316
+    C(amplitude, slope)     = +0.2039
+    C(sigma, slope)         = +0.1502
+    C(amplitude, center)    = +0.1307

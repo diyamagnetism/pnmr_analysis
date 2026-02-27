@@ -1,0 +1,29 @@
+Fit Report for Hydrogen Peak in Mineral Oil
+==================================================
+[[Model]]
+    (Model(lorentzian) + Model(linear))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 96
+    # data points      = 63
+    # variables        = 5
+    chi-square         = 1.1628e+10
+    reduced chi-square = 2.0048e+08
+    Akaike info crit   = 1209.11223
+    Bayesian info crit = 1219.82790
+    R-squared          = 0.99792523
+[[Variables]]
+    amplitude:  1.2307e+09 +/- 9135449.93 (0.74%) (init = 2.224439e+10)
+    center:     7018.24677 +/- 0.91832529 (0.01%) (init = 7123.162)
+    sigma:      142.024639 +/- 3.60973786 (2.54%) (init = 5000)
+    slope:     -0.05158583 +/- 0.42697500 (827.70%) (init = -1)
+    intercept: -3054.13087 +/- 3624.29075 (118.67%) (init = 0)
+    fwhm:       284.049279 +/- 7.21947571 (2.54%) == '2.0000000*sigma'
+    height:     2758194.91 +/- 60493.4892 (2.19%) == '0.3183099*amplitude/max(1e-15, sigma)'
+[[Correlations]] (unreported correlations are < 0.100)
+    C(slope, intercept)     = -0.8413
+    C(amplitude, sigma)     = +0.5832
+    C(center, sigma)        = +0.3310
+    C(amplitude, intercept) = -0.2214
+    C(sigma, intercept)     = -0.1845
+    C(amplitude, center)    = +0.1020

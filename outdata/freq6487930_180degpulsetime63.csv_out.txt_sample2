@@ -4,24 +4,24 @@ Fit Report for Hydrogen Peak in Mineral Oil
     (Model(lorentzian) + Model(linear))
 [[Fit Statistics]]
     # fitting method   = leastsq
-    # function evals   = 88
-    # data points      = 74
+    # function evals   = 96
+    # data points      = 68
     # variables        = 5
-    chi-square         = 3.2694e+10
-    reduced chi-square = 4.7382e+08
-    Akaike info crit   = 1483.07239
-    Bayesian info crit = 1494.59272
-    R-squared          = 0.97342761
+    chi-square         = 1.9782e+10
+    reduced chi-square = 3.1400e+08
+    Akaike info crit   = 1335.22070
+    Bayesian info crit = 1346.31823
+    R-squared          = 0.98513270
 [[Variables]]
-    amplitude:  5.1617e+08 +/- 16587943.7 (3.21%) (init = 6.839309e+09)
-    center:     4809.32477 +/- 7.05281961 (0.15%) (init = 4701.881)
-    sigma:      280.622681 +/- 11.2935446 (4.02%) (init = 5000)
-    slope:     -8.82779848 +/- 1.18985076 (13.48%) (init = -1)
-    intercept:  53691.9843 +/- 6321.65434 (11.77%) (init = 0)
-    fwhm:       561.245362 +/- 22.5870892 (4.02%) == '2.0000000*sigma'
-    height:     585489.135 +/- 14680.2998 (2.51%) == '0.3183099*amplitude/max(1e-15, sigma)'
+    amplitude:  5.0058e+08 +/- 12145522.4 (2.43%) (init = 8.04965e+09)
+    center:     4974.28968 +/- 4.57913513 (0.09%) (init = 4971.898)
+    sigma:      230.468759 +/- 7.14753408 (3.10%) (init = 5000)
+    slope:      0.92161656 +/- 1.01508080 (110.14%) (init = -1)
+    intercept: -13149.4251 +/- 5620.88186 (42.75%) (init = 0)
+    fwhm:       460.937518 +/- 14.2950681 (3.10%) == '2.0000000*sigma'
+    height:     691365.663 +/- 13684.8097 (1.98%) == '0.3183099*amplitude/max(1e-15, sigma)'
 [[Correlations]] (unreported correlations are < 0.100)
-    C(slope, intercept)     = -0.8585
-    C(amplitude, sigma)     = +0.7824
-    C(amplitude, intercept) = -0.2743
-    C(sigma, intercept)     = -0.2090
+    C(slope, intercept)     = -0.8834
+    C(amplitude, sigma)     = +0.7699
+    C(amplitude, intercept) = -0.2554
+    C(sigma, intercept)     = -0.1913

@@ -5,23 +5,23 @@ Fit Report for Hydrogen Peak in Mineral Oil
 [[Fit Statistics]]
     # fitting method   = leastsq
     # function evals   = 107
-    # data points      = 74
+    # data points      = 54
     # variables        = 5
-    chi-square         = 3.0261e+10
-    reduced chi-square = 4.3857e+08
-    Akaike info crit   = 1477.35062
-    Bayesian info crit = 1488.87094
-    R-squared          = 0.97646868
+    chi-square         = 2.0307e+10
+    reduced chi-square = 4.1443e+08
+    Akaike info crit   = 1076.24383
+    Bayesian info crit = 1086.18875
+    R-squared          = 0.98355466
 [[Variables]]
-    amplitude:  5.2975e+08 +/- 15955796.8 (3.01%) (init = 6.89921e+09)
-    center:     5838.95775 +/- 6.62427078 (0.11%) (init = 5902.361)
-    sigma:      280.991150 +/- 10.6042940 (3.77%) (init = 5000)
-    slope:     -5.35376815 +/- 1.14313772 (21.35%) (init = -1)
-    intercept:  35781.6673 +/- 7389.84644 (20.65%) (init = 0)
-    fwhm:       561.982299 +/- 21.2085881 (3.77%) == '2.0000000*sigma'
-    height:     600110.707 +/- 14115.4426 (2.35%) == '0.3183099*amplitude/max(1e-15, sigma)'
+    amplitude:  5.5074e+08 +/- 16059088.9 (2.92%) (init = 8.392372e+09)
+    center:     3768.84172 +/- 5.57648923 (0.15%) (init = 3816.794)
+    sigma:      237.202214 +/- 8.86899911 (3.74%) (init = 5000)
+    slope:     -1.07309392 +/- 1.30674014 (121.77%) (init = -1)
+    intercept: -3868.57878 +/- 5962.84474 (154.14%) (init = 0)
+    fwhm:       474.404428 +/- 17.7379983 (3.74%) == '2.0000000*sigma'
+    height:     739051.847 +/- 17507.3940 (2.37%) == '0.3183099*amplitude/max(1e-15, sigma)'
 [[Correlations]] (unreported correlations are < 0.100)
-    C(slope, intercept)     = -0.9065
-    C(amplitude, sigma)     = +0.7822
-    C(amplitude, intercept) = -0.2679
-    C(sigma, intercept)     = -0.2025
+    C(slope, intercept)     = -0.8192
+    C(amplitude, sigma)     = +0.7737
+    C(amplitude, intercept) = -0.3304
+    C(sigma, intercept)     = -0.2478
